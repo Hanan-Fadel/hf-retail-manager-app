@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HF-RetailManager-WebAPI", "HF-RetailManager-WebAPI\HF-RetailManager-WebAPI.csproj", "{B177FE97-688A-4E3D-8683-D7AD29B44917}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFRetailManagerWebAPI", "HF-RetailManager-WebAPI\HFRetailManagerWebAPI.csproj", "{B177FE97-688A-4E3D-8683-D7AD29B44917}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HFRetailManagerDatabase", "HFRetailManagerDatabase\HFRetailManagerDatabase.sqlproj", "{E871AF18-F462-4D67-B933-BF720C77E71A}"
 EndProject
