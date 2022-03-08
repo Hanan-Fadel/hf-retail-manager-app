@@ -33,7 +33,8 @@ namespace HFRetailManagerDesktopUI
             _container
                 .Singleton<IWindowManager, WindowManager>()
                 //here's where we can pass event message through our application
-                .Singleton<IEventAggregator, EventAggregator>();
+                .Singleton<IEventAggregator, EventAggregator>()
+                .Singleton<IAPIHelper, APIHelper>();
 
             //Get all types in our all, of type class and their names ends with ViewModel
 
