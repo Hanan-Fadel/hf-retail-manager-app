@@ -9,6 +9,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HFRetailManagerDatabase", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFRetailManagerDesktopUI", "HFRetailManagerDesktopUI\HFRetailManagerDesktopUI.csproj", "{1A933DAE-7F80-42CF-9283-783311791E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFRetailManagerDataManagerClassLibrary", "HFRetailManagerDataManagerClassLibrary\HFRetailManagerDataManagerClassLibrary.csproj", "{C4A18E54-C7FE-4633-8E5B-35651476CB46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{1A933DAE-7F80-42CF-9283-783311791E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A933DAE-7F80-42CF-9283-783311791E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A933DAE-7F80-42CF-9283-783311791E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A18E54-C7FE-4633-8E5B-35651476CB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A18E54-C7FE-4633-8E5B-35651476CB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A18E54-C7FE-4633-8E5B-35651476CB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A18E54-C7FE-4633-8E5B-35651476CB46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
