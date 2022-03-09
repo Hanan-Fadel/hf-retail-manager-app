@@ -1,5 +1,5 @@
 ﻿using Caliburn.Micro;
-using HFRetailManagerDesktopUI.Helpers;
+using HFRetailManagerDesktopUIClassLibrary.Api;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -90,6 +90,10 @@ namespace HFRetailManagerDesktopUI.ViewModels
             {
                 ErrorMessage = "";
                 var result = await _apiHelper.Authenticate(UserName, Password);
+
+                //Capture more information about the user
+                await _apiHelper.GetLoggedInUserInfo(result.Access_Token);
+
             }
             catch (Exception ex)
             {

@@ -1,6 +1,8 @@
 ﻿using Caliburn.Micro;
 using HFRetailManagerDesktopUI.Helpers;
 using HFRetailManagerDesktopUI.ViewModels;
+using HFRetailManagerDesktopUIClassLibrary.Api;
+using HFRetailManagerDesktopUIClassLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +36,7 @@ namespace HFRetailManagerDesktopUI
                 .Singleton<IWindowManager, WindowManager>()
                 //here's where we can pass event message through our application
                 .Singleton<IEventAggregator, EventAggregator>()
+                .Singleton<ILoggedInUserModel, LoggedInUserModel>()
                 .Singleton<IAPIHelper, APIHelper>();
 
             //Get all types in our all, of type class and their names ends with ViewModel

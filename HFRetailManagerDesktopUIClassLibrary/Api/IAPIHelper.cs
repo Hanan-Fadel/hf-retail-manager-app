@@ -1,10 +1,11 @@
 ﻿using HFRetailManagerDesktopUI.Models;
 using System.Threading.Tasks;
 
-namespace HFRetailManagerDesktopUI.Helpers
+namespace HFRetailManagerDesktopUIClassLibrary.Api
 {
     public interface IAPIHelper
     {
         Task<AuthenticatedUser> Authenticate(string username, string password);
+        Task GetLoggedInUserInfo(string token);
     }
 }
