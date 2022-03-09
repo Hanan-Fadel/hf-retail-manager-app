@@ -5,10 +5,11 @@
     <Application.Resources>
     <ResourceDictionary>
         <ResourceDictionary.MergedDictionaries>
-            <ResourceDictionary>
-                <local:BootStrapper x:Key="Bootstrapper" />
-            </ResourceDictionary>
+                <ResourceDictionary>
+                    <local:BootStrapper x:Key="Bootstrapper" />
+                </ResourceDictionary>
         </ResourceDictionary.MergedDictionaries>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"></BooleanToVisibilityConverter>
     </ResourceDictionary>        
     </Application.Resources>
 </Application>
